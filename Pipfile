@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-script = "*"
+flask-wtf = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
+flask-bootstrap = "*"
+mysql-connector-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
